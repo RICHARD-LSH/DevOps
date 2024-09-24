@@ -7,7 +7,7 @@ console.log("4. Tea");
 var choice = parseInt(prompt("메뉴를 선택해 주세요."));
 
 console.log(choice + "번 메뉴를 선택하셨습니다.");
-
+// switch 조건문은 break 키워드를 사용하지 않으면 코드가 계속 실행되는 특징이 있다.
 switch (choice) {
   case 1:
     console.log("아이스 아메리카노는 1,500원 입니다.");
