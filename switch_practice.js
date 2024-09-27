@@ -1,4 +1,4 @@
-var month = parseInt(prompt("월을 입력해주세요.");
+var month = parseInt(prompt("월을 입력해주세요."));
 console.log(month + "월을 입력하셨습니다.");
 
 daysInMonth(month);
